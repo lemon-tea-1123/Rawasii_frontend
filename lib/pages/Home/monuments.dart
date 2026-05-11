@@ -8,7 +8,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String baseUrl = 'http://localhost:8080';
+  static const String baseUrl = 'https://rawasiibackend-production.up.railway.app';
+
 
   static Future<String?> getToken() async {
     final prefs = await SharedPreferences.getInstance();
