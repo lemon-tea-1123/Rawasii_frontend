@@ -15,7 +15,8 @@ import 'package:rawasii/Classes/user.dart' as AppUser;
 //       ? 'http://localhost:8080' // Chrome
 //       : 'http://10.0.2.2:8080', // Android emulator
 // );
-const String baseUrl = 'http://localhost:8080';
+const String baseUrl = 'https://rawasiibackend-production.up.railway.app';
+
 
 class ApiService {
   static String? _token;
